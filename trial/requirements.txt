@@ -1,0 +1,12 @@
+flask
+transformers
+youtube_dl
+moviepy
+SpeechRecognition
+pytube
+pyaudio
+pocketsphinx
+pydub
+librosa
+noisereduce
+numpy
