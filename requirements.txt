@@ -1,0 +1,13 @@
+Flask==2.2.5
+summarizer==0.10.2
+youtube_dl==2021.6.6
+moviepy==1.0.3
+SpeechRecognition==3.8.1
+pytube==11.0.1
+PyAudio==0.2.11
+Wave==0.0.1
+pocketsphinx==0.1.15
+librosa==0.8.1
+noisereduce==2.0.0
+numpy==1.22.0
+Time==0.1
