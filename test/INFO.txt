@@ -1,0 +1,25 @@
+required libraries
+pip install SpeechRecognition
+pip install moviepy
+pip install gensim
+
+
+from gensim.summarization import summarize
+or pip install bert-extractive-summarizer
+->BERT (Bidirectional Encoder Representations from Transformers)
+->In the code, the Summarizer class from the "bert-extractive-summarizer" library is used to create a summarization model. This model takes a text as input and generates a summary of the most important sentences from the text.By running pip install bert-extractive-summarizer, you ensure that the library is installed and available for use in your code to perform extractive text summarization using BERT-based models.
+
+
+pip install torch
+->The key libraries used in your code are MoviePy for video processing, SpeechRecognition for audio transcription, and the "bert-extractive-summarizer" library for text summarization. Installing PyTorch is not relevant to these particular tasks, so you can omit that line from your code.
+->The pip install torch command in the code is not necessary for the specific code you provided. It seems to be an oversight or an artifact from a different code context. If you are not using PyTorch or any PyTorch-specific functionality in your code, you can safely remove the pip install torch line as it's not required for the provided code to work.
+pip install tensorflow
+->The reason for installing TensorFlow is that the "bert-extractive-summarizer" library, which is used for text summarization in the code, relies on deep learning models. These models are often implemented using libraries like TensorFlow or PyTorch. While the "bert-extractive-summarizer" library itself doesn't directly use TensorFlow, the models it relies on may depend on it.
+->So, by running pip install tensorflow, you ensure that the required deep learning dependencies are available in your Python environment to support the "bert-extractive-summarizer" library and its underlying models. Without TensorFlow or a similar library installed, the "bert-extractive-summarizer" library might not function properly or could generate errors related to missing dependencies.
+
+
+
+# https://mediaarea.net/en/MediaInfo/Download
+pip install pytube moviepy SpeechRecognition sumy
+https://www.ffmpeg.org/download.html
+ffmpeg -i Mojo.mp4 -vn -acodec pcm_s16le -ar 44100 -ac 2 audio.wav
